@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        android:fontStyle="normal"
+        app:font="@font/inter_semibold"
+        app:fontStyle="normal"
+        android:fontWeight="900"
+        app:fontWeight="700" />
+    <font
+        app:font="@font/inter_semibold"
+        android:fontStyle="normal"
+        app:fontStyle="italic"
+        android:fontWeight="900"
+        app:fontWeight="700" />
+</font-family>
