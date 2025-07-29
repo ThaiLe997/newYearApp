@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AppToolBar" parent="title">
+        <attr name="registerIconBack" format="boolean" />
+        <attr name="themeView" format="enum">
+            <enum name="primary" value="0" />
+            <enum name="dark" value="1" />
+            <enum name="light" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BurnLoadingView">
+        <attr name="auto_start" format="boolean" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+</resources>

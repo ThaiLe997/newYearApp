@@ -53,6 +53,4 @@ dependencies {
 
 
     implementation("io.insert-koin:koin-android:3.2.0")
-
-    implementation("com.github.appota:JavaLunarCore:1.0.2")
 }

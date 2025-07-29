@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toolbarStyle" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textSize">@dimen/font_big_fit</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+</resources>

@@ -9,10 +9,9 @@ import android.view.MenuInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.appcompat.view.ActionMode
 import androidx.appcompat.widget.Toolbar
-import com.gapp.ghandicap.framework.common.localehelper.LocaleHelper
+import com.example.lixinewyear.framework.common.localehelper.LocaleHelper
 
 class LocaleHelperAppCompatDelegate(private val superDelegate: AppCompatDelegate) :
     AppCompatDelegate() {

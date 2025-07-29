@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="colorViewRootWhite">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTextDark">#000000</color>
+    <color name="colorAppBlue">#0053B6</color>
+
 </resources>

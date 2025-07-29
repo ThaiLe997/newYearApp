@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="big_margin">30dp</dimen>
+    <dimen name="normal_margin">20dp</dimen>
+    <dimen name="little_margin">10dp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="width_circle_chart_statistic">4dp</dimen>
+    <dimen name="margin_logo_top">100dp</dimen>
+
+    <dimen name="d_minus_15">-15dp</dimen>
+
+    <dimen name="d_6">6dp</dimen>
+    <dimen name="d_12">12dp</dimen>
+    <dimen name="d_13">13dp</dimen>
+    <dimen name="d_15">15dp</dimen>
+    <dimen name="d_18">18dp</dimen>
+    <dimen name="d_22">22dp</dimen>
+    <dimen name="d_25">25dp</dimen>
+    <dimen name="d_28">28dp</dimen>
+    <dimen name="d_30">30dp</dimen>
+    <dimen name="d_35">35dp</dimen>
+    <dimen name="d_40">40dp</dimen>
+    <dimen name="d_45">45dp</dimen>
+    <dimen name="d_50">50dp</dimen>
+    <dimen name="d_55">55dp</dimen>
+    <dimen name="d_60">60dp</dimen>
+    <dimen name="d_65">65dp</dimen>
+    <dimen name="d_70">70dp</dimen>
+    <dimen name="d_75">75dp</dimen>
+    <dimen name="d_80">80dp</dimen>
+    <dimen name="d_85">85dp</dimen>
+    <dimen name="d_90">90dp</dimen>
+    <dimen name="d_100">100dp</dimen>
+    <dimen name="d_110">110dp</dimen>
+    <dimen name="d_120">120dp</dimen>
+    <dimen name="d_130">130dp</dimen>
+    <dimen name="d_140">140dp</dimen>
+    <dimen name="d_150">150dp</dimen>
+    <dimen name="d_160">150dp</dimen>
+    <dimen name="d_180">180dp</dimen>
+    <dimen name="d_200">200dp</dimen>
+    <dimen name="d_210">210dp</dimen>
+    <dimen name="d_220">220dp</dimen>
+    <dimen name="d_250">250dp</dimen>
+    <dimen name="d_300">300dp</dimen>
+    <dimen name="d_400">400dp</dimen>
+    <dimen name="height_square_handicap">33dp</dimen>
+    <dimen name="height_icon_tee_color">5dp</dimen>
+    <dimen name="margin_icon_tee_color">7dp</dimen>
+
+    <dimen name="margin_top_sign_up">120dp</dimen>
+
+    <dimen name="card_corner_radius">25dp</dimen>
+
+    <dimen name="width_arrow_sign_up">10dp</dimen>
+    <dimen name="height_arrow_sign_up">15dp</dimen>
+
+    <dimen name="font_supper_small_fil">9dp</dimen>
+    <dimen name="font_supper_small">10dp</dimen>
+    <dimen name="font_user_score">10dp</dimen>
+    <dimen name="font_small_fit">11dp</dimen>
+    <dimen name="font_tab_left_table_scorecard">13dp</dimen>
+    <dimen name="font_little_fit">12dp</dimen>
+    <dimen name="font_score_table">21dp</dimen>
+    <dimen name="font_normal_fit">14dp</dimen>
+    <dimen name="font_large_fit">16dp</dimen>
+    <dimen name="font_size_chat">18dp</dimen>
+    <dimen name="font_big_fit">18dp</dimen>
+    <dimen name="font_header_small_fit">20dp</dimen>
+    <dimen name="font_header_fit">22dp</dimen>
+    <dimen name="font_content_comment">15dp</dimen>
+    <dimen name="font_name_home_fit">25dp</dimen>
+    <dimen name="font_score_number_fit">26dp</dimen>
+    <dimen name="font_score_enter_fit">35dp</dimen>
+    <dimen name="font_note_gps">10dp</dimen>
+    <dimen name="font_lunar_time">10dp</dimen>
+</resources>
