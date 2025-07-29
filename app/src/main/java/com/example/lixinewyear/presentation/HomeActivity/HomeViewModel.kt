@@ -1,4 +1,7 @@
 package com.example.lixinewyear.presentation.HomeActivity
 
-class HomeViewModel {
+import com.example.lixinewyear.framework.base.BaseViewModel
+
+class HomeViewModel: BaseViewModel() {
+
 }
