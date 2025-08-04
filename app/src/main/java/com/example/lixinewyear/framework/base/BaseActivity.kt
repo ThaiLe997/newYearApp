@@ -56,6 +56,8 @@ abstract class BaseActivity<out T : BaseViewModel, VB : ViewBinding> :
         window.setSoftInputMode(modeInput())
         setupToolBar()
         setupViewMask()
+        initView()
+        loadData()
     }
 
     override fun onPause() {

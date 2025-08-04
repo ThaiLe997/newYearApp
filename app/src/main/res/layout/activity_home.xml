@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/viewRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.lixinewyear.presentation.custom.AppToolBar
-        android:id="@+id/toolbarBack"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
-    <LinearLayout
-        android:id="@+id/viewContents"
-        android:layout_width="match_parent"
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtDate"
+        style="@style/new_year_style"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginTop="@dimen/d_200"
+        android:layout_marginBottom="@dimen/d_50"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E91E63"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/d_40"
+        tools:ignore="SpUsage" />
 
-    </LinearLayout>
+    <com.google.android.material.textview.MaterialTextView
+        style="@style/semi_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi Zinhh"
+        android:layout_below="@id/txtDate"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/d_30"/>
 
-    <com.example.lixinewyear.presentation.custom.BurnLoadingView
-        android:id="@+id/viewMask"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
 
 </RelativeLayout>

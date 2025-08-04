@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="new_year_style">
+        <item name="android:fontFamily">@font/swing_happy</item>
+        <item name="fontFamily">@font/swing_happy</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="normal">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="medium">
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="light">
+        <item name="android:fontFamily">@font/inter_light</item>
+        <item name="fontFamily">@font/inter_light</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="bold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="semi_bold">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="italic">
+        <item name="android:fontFamily">@font/inter_italic</item>
+        <item name="fontFamily">@font/inter_italic</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="semi_bold_regular">
+        <item name="android:fontFamily">@font/semi_bold</item>
+        <item name="fontFamily">@font/semi_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="toolbarStyle" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
         <item name="android:textSize">@dimen/font_big_fit</item>
         <item name="android:fontFamily">@font/inter_bold</item>
