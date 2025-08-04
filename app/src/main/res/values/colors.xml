@@ -8,4 +8,8 @@
     <color name="colorTextDark">#000000</color>
     <color name="colorAppBlue">#0053B6</color>
 
+    <color name="colorRed">#D50000</color>
+    <color name="colorTextHint">#A6A6A6</color>
+    <color name="colorBlack">#FF000000</color>
+
 </resources>

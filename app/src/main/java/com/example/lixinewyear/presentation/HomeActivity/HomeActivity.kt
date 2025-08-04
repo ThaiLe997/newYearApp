@@ -3,10 +3,12 @@ package com.example.lixinewyear.presentation.HomeActivity
 import android.annotation.SuppressLint
 import android.util.Log
 import android.view.LayoutInflater
+import androidx.activity.result.contract.ActivityResultContracts
 import com.appota.lunarcore.LunarCoreHelper
 //import com.appota.lunarcore.LunarCoreHelper
 import com.example.lixinewyear.databinding.ActivityHomeBinding
 import com.example.lixinewyear.framework.base.BaseActivity
+import com.example.lixinewyear.framework.common.AppNavigation
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.util.Calendar
 import java.util.TimeZone
@@ -20,6 +22,12 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>()  {
             ActivityHomeBinding.inflate(it)
         })
 
+    private val startForResultInputDataMoney =
+        registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            if (result.resultCode == RESULT_OK) {
+                // TODO: handle result call back
+            }
+        }
 
     @SuppressLint("SetTextI18n")
     override fun initView() {
@@ -35,6 +43,10 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>()  {
         Log.d("LOL", "mCalendar: ${calendar.timeInMillis} ")
 
         binding.txtDate.text = currentLunarCalendar[0].toString() + "/" + currentLunarCalendar[1].toString() + "/" + currentLunarCalendar[2].toString()
+
+        binding.btnInputData.setOnClickListener {
+            AppNavigation.inputDataMoneyDirection(this, startForResultInputDataMoney)
+        }
 
 
     }

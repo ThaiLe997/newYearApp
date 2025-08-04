@@ -75,4 +75,7 @@
     <dimen name="font_score_enter_fit">35dp</dimen>
     <dimen name="font_note_gps">10dp</dimen>
     <dimen name="font_lunar_time">10dp</dimen>
+
+    <dimen name="size_progress_loading">70dp</dimen>
+
 </resources>

@@ -20,6 +20,7 @@
         tools:ignore="SpUsage" />
 
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtName"
         style="@style/semi_bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +28,26 @@
         android:layout_below="@id/txtDate"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
-        android:textSize="@dimen/d_30"/>
+        android:textSize="@dimen/d_30"
+        tools:ignore="SpUsage" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/btnInputData"
+        style="@style/semi_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:background="@color/colorAppBlue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:textSize="@dimen/font_large_fit"
+        android:textColor="@color/colorWhite"
+        android:paddingVertical="@dimen/small_margin"
+        android:paddingHorizontal="@dimen/d_15"
+        android:text="Nhập số tiền lì xì"
+        tools:ignore="SpUsage" />
+
 
 
 

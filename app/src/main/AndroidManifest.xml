@@ -26,9 +26,11 @@
 
         </activity>
 
-<!--        <activity android:name=".presentation.test.TestActivity"-->
-<!--            android:exported="false"/>-->
+        <activity android:name=".presentation.test.TestActivity"
+            android:exported="false"/>
 
+        <activity android:name=".presentation.InputDataMoney.InputDataMoneyActivity"
+            android:exported="false"/>
 
     </application>
 

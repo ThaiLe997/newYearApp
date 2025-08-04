@@ -15,4 +15,10 @@
         <attr name="duration" format="integer" />
     </declare-styleable>
 
+    <declare-styleable name="LoadingView">
+        <attr name="with_progress" format="boolean" />
+        <attr name="sleep_angle" format="float" />
+        <attr name="fillColor" format="color|reference" />
+    </declare-styleable>
+
 </resources>
