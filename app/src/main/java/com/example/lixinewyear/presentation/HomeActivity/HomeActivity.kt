@@ -42,6 +42,7 @@ class HomeActivity : BaseActivity<HomeViewModel, ActivityHomeBinding>()  {
         Log.d("LOL", "currentLunarCalendar: ${currentLunarCalendar} ")
         Log.d("LOL", "mCalendar: ${calendar.timeInMillis} ")
 
+        binding.txtLunarDate.text = currentLunarCalendar[0].toString() + "/" + currentLunarCalendar[1].toString() + "/" + currentLunarCalendar[2].toString()
         binding.txtDate.text = currentLunarCalendar[0].toString() + "/" + currentLunarCalendar[1].toString() + "/" + currentLunarCalendar[2].toString()
 
         binding.btnInputData.setOnClickListener {

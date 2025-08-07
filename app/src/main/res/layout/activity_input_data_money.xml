@@ -15,43 +15,114 @@
         android:layout_height="wrap_content"
         app:title="Nhập lì xì" />
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/containerAddDataMoney"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/txtValueMoney"
-            style="@style/normal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/normal_margin"
-            android:layout_marginTop="@dimen/normal_margin"
-            android:text="Giá tiền:"
-            android:textColor="@color/colorTextDark"
-            android:textSize="@dimen/font_large_fit"
-            tools:ignore="SpUsage" />
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/inputChat"
-            style="@style/normal"
+        <LinearLayout
+            android:id="@+id/layoutInputMoney"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txtValueMoney"
-            android:layout_gravity="center"
-            android:layout_marginHorizontal="@dimen/normal_margin"
-            android:layout_marginTop="@dimen/little_margin"
-            android:background="@drawable/background_stroke_black_fill"
-            android:hint="Nhập mệnh giá"
-            android:maxLines="3"
-            android:padding="@dimen/little_margin"
-            android:textColor="@color/colorTextDark"
-            android:textColorHint="@color/colorTextHint"
-            android:textSize="@dimen/font_size_chat"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="SpUsage" />
+            android:orientation="horizontal"
+            tools:ignore="DisableBaselineAlignment">
 
-    </RelativeLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/normal_margin"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:text="Giá tiền:"
+                    android:textColor="@color/colorTextDark"
+                    android:textSize="@dimen/font_large_fit"
+                    tools:ignore="SpUsage" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputValueMoney"
+                    style="@style/normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="@dimen/normal_margin"
+                    android:layout_marginTop="@dimen/little_margin"
+                    android:background="@drawable/background_stroke_black_fill"
+                    android:hint="Nhập mệnh giá"
+                    android:maxLines="3"
+                    android:padding="@dimen/little_margin"
+                    android:textColor="@color/colorTextDark"
+                    android:textColorHint="@color/colorTextHint"
+                    android:textSize="@dimen/font_size_chat"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingEnd="@dimen/normal_margin"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/normal_margin"
+                    android:text="Giá tiền:"
+                    android:textColor="@color/colorTextDark"
+                    android:textSize="@dimen/font_large_fit"
+                    tools:ignore="SpUsage" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputQuantityMoney"
+                    style="@style/normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/little_margin"
+                    android:background="@drawable/background_stroke_black_fill"
+                    android:hint="Nhập số lượng"
+                    android:maxLines="3"
+                    android:padding="@dimen/little_margin"
+                    android:textColor="@color/colorTextDark"
+                    android:textColorHint="@color/colorTextHint"
+                    android:textSize="@dimen/font_size_chat"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/btnConfirm"
+            style="@style/semi_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/little_margin"
+            android:layout_marginTop="@dimen/d_15"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_corner_red"
+            android:text="Xác nhận"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerDataMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d_15"/>
+
+
+    </LinearLayout>
 
 
 </LinearLayout>

@@ -6,9 +6,10 @@ import android.view.ViewGroup
 import com.example.lixinewyear.databinding.ItemInputDataMoneyBinding
 import com.example.lixinewyear.framework.base.adapter.BaseAdapter
 import com.example.lixinewyear.framework.base.adapter.BaseRecyclerViewHolder
+import com.example.lixinewyear.framework.model.MoneyPackage
 
 class InputDataMoneyAdapter(context: Context) :
-    BaseAdapter<String, ItemInputDataMoneyBinding>(context) {
+    BaseAdapter<MoneyPackage, ItemInputDataMoneyBinding>(context) {
     override fun setLayout(viewType: Int): (LayoutInflater, ViewGroup?, Boolean) -> ItemInputDataMoneyBinding =
         { layoutInflater, viewGroup, b ->
             ItemInputDataMoneyBinding.inflate(layoutInflater, viewGroup, b)
@@ -25,9 +26,11 @@ class InputDataMoneyAdapter(context: Context) :
         (holder as? InputDataMoneyViewHolder)?.bindData(position)
     }
 
-    inner class InputDataMoneyViewHolder(val binding: ItemInputDataMoneyBinding): BaseRecyclerViewHolder(binding) {
+    inner class InputDataMoneyViewHolder(val binding: ItemInputDataMoneyBinding) :
+        BaseRecyclerViewHolder(binding) {
         fun bindData(position: Int) {
-
+            val model = getItem(position)
+//            binding.txtValueMoney.text = model.value
         }
     }
 }

@@ -20,6 +20,19 @@
         tools:ignore="SpUsage" />
 
     <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtLunarDate"
+        style="@style/new_year_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d_200"
+        android:layout_marginBottom="@dimen/d_50"
+        android:layout_centerHorizontal="true"
+        android:textColor="#E91E63"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/d_40"
+        tools:ignore="SpUsage" />
+
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/txtName"
         style="@style/semi_bold"
         android:layout_width="wrap_content"
